@@ -20,6 +20,7 @@ public class EscuelaWebController {
     public String listarEscuelas(Model model) {
         // Pasamos la lista de escuelas a la vista con el nombre "listaEscuelas"
         model.addAttribute("listaEscuelas", repository.findAll());
+        System.out.println("Número de escuelas encontradas: " + repository.count());
         return "listado"; // Esto buscará el archivo listado.html
     }
 }
