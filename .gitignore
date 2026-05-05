@@ -1,0 +1,28 @@
+# Compilados de Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Carpeta de salida de Maven (¡Muy importante!)
+target/
+
+# Archivos específicos de Eclipse/STS
+.settings/
+.project
+.classpath
+.factorypath
+bin/
+
+# Temporales y logs
+/help/
+/logs/
+*.swp
+
+# Configuración de sistema de Railway o variables locales
+.env
+.DS_Store
